@@ -6,7 +6,7 @@
 ## Installation
 
 ```
-$ npm install co-fs
+$ npm install co-prompt
 ```
 
 ## Examples
