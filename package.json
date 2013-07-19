@@ -1,0 +1,23 @@
+{
+  "name": "co-prompt",
+  "version": "1.0.0",
+  "description": "simple terminal user input 'co'",
+  "keywords": [
+    "terminal",
+    "console",
+    "prompt",
+    "confirm",
+    "password",
+    "mask",
+    "co"
+  ],
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.10.0",
+    "co": "1.4.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "keypress": "~0.2.1"
+  }
+}
