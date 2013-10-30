@@ -7,4 +7,4 @@ co(function *(){
   var ok = yield confirm('are you sure? ');
   console.log('answer: %s', ok);
   process.stdin.pause();
-});
+})();
