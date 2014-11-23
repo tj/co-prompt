@@ -10,4 +10,4 @@ co(function *(){
   console.log('user: %s', user);
   console.log('pass: %s', pass);
   process.stdin.pause();
-})();
+});

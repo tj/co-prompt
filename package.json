@@ -12,9 +12,9 @@
     "co"
   ],
   "devDependencies": {
-    "should": "~1.2.2",
+    "co": "^4.0.0",
     "mocha": "~1.10.0",
-    "co": "2.1.0"
+    "should": "~1.2.2"
   },
   "license": "MIT",
   "dependencies": {
