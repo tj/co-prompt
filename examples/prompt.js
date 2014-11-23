@@ -13,4 +13,4 @@ co(function *(){
   console.log(desc);
 
   process.stdin.pause();
-})();
+});
