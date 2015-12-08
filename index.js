@@ -20,7 +20,7 @@ function prompt(msg){
     process.stdout.write(msg);
     process.stdin.setEncoding('utf8');
     process.stdin.once('data', function(val){
-      done(null, val.trim());
+      done(null, (val.length <= 1 && defaultVal) ? defaultVal : val.trim());
     }).resume();
   }
 }
